@@ -21,10 +21,11 @@
 ###
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,nodejs,android,kotlin,java" /><br>
+  <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,nodejs,androidstudio,kotlin,java" /><br>
   <img src="https://skillicons.dev/icons?i=blender,unity,firebase,figma,typescript,git,vscode,github" /><br>
   <img src="https://skillicons.dev/icons?i=laravel,mysql,django,mongodb,vite,sqlite" />
 </div>
+
 
 ###
 
