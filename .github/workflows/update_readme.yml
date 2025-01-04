@@ -2,17 +2,17 @@ name: Update README with GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Ejecuta cada día a medianoche
-  workflow_dispatch:  # Permite ejecutarlo manualmente
+    - cron: '0 0 * * *'  # Se ejecuta todos los días a medianoche
+  workflow_dispatch:  # Permite ejecutarlo manualmente desde "Actions"
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Update README
+      - name: Generate GitHub Stats
         run: |
           echo '###' > README.md
           echo '' >> README.md
@@ -23,13 +23,18 @@ jobs:
           echo '###' >> README.md
           echo '' >> README.md
           echo '<div align="center">' >> README.md
-          echo '  <img src="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dracula&count_private=true&token=${{ secrets.Stat_Pat }}" height="150" alt="stats graph"  />' >> README.md
+          echo '  <img src="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" height="150" alt="GitHub Stats" />' >> README.md
           echo '</div>' >> README.md
+          echo '' >> README.md
+          echo '<div align="center">' >> README.md
+          echo '  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=${{ github.repository_owner }}&layout=compact&langs_count=5&theme=dracula&count_private=true" height="150" alt="Top Languages" />' >> README.md
+          echo '</div>' >> README.md
+          echo '' >> README.md
 
-      - name: Commit Changes
+      - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git commit -m "Update GitHub Stats" || echo "No changes to commit"
+          git commit -m "Update README with GitHub Stats" || echo "No changes to commit"
           git push
