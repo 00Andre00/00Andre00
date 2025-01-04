@@ -1,0 +1,35 @@
+name: Update README with GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Ejecuta cada día a medianoche
+  workflow_dispatch:  # Permite ejecutarlo manualmente
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Update README
+        run: |
+          echo '###' > README.md
+          echo '' >> README.md
+          echo '<div align="center">' >> README.md
+          echo '  <img height="150" src="https://media.giphy.com/media/1dJWnCZBCE7gcFwLvk/giphy.gif" />' >> README.md
+          echo '</div>' >> README.md
+          echo '' >> README.md
+          echo '###' >> README.md
+          echo '' >> README.md
+          echo '<div align="center">' >> README.md
+          echo '  <img src="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dracula&count_private=true&token=${{ secrets.Stat_Pat }}" height="150" alt="stats graph"  />' >> README.md
+          echo '</div>' >> README.md
+
+      - name: Commit Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Update GitHub Stats" || echo "No changes to commit"
+          git push
