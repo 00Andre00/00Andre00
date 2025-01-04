@@ -2,11 +2,11 @@ name: Update README with GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Se ejecuta todos los días a medianoche
-  workflow_dispatch:  # Permite ejecutarlo manualmente
+    - cron: '0 0 * * *'  # Corregido el formato cron (faltaba un *)
+  workflow_dispatch:
 
 permissions:
-  contents: write  # Da permisos para modificar el repositorio
+  contents: write
 
 jobs:
   update-readme:
@@ -15,18 +15,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # Evita problemas de autenticación
-
-      - name: Set up Git
+          fetch-depth: 0  # Asegura que obtiene todo el historial
+          
+      - name: Configure Git
         run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
       - name: Pull Latest Changes
         run: |
-          git fetch origin main
-          git reset --hard origin/main  # Asegura que esté sincronizado
-
+          git pull origin main
+          
       - name: Generate GitHub Stats
         run: |
           echo '###' > README.md
@@ -45,11 +44,9 @@ jobs:
           echo '  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=${{ github.repository_owner }}&layout=compact&langs_count=5&theme=dracula&count_private=true" height="150" alt="Top Languages" />' >> README.md
           echo '</div>' >> README.md
           echo '' >> README.md
-
+          
       - name: Commit and Push Changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add README.md
           git diff --staged --quiet || git commit -m "Update README with GitHub Stats"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ github.repository }}.git main --force
+          git push origin main
