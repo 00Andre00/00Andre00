@@ -18,42 +18,42 @@
 #### 💻 Lenguajes de programación
 
 <p align="center">
-  <img src="https://skillicons.dev/icons/java.svg" height="40" />
-  <img src="https://skillicons.dev/icons/kotlin.svg" height="40" />
-  <img src="https://skillicons.dev/icons/javascript.svg" height="40" />
-  <img src="https://skillicons.dev/icons/html.svg" height="40" />
-  <img src="https://skillicons.dev/icons/css.svg" height="40" />
+  ![Java](https://skillicons.dev/icons/java.svg)
+  ![Kotlin](https://skillicons.dev/icons/kotlin.svg)
+  ![JavaScript](https://skillicons.dev/icons/javascript.svg)
+  ![HTML5](https://skillicons.dev/icons/html.svg)
+  ![CSS3](https://skillicons.dev/icons/css.svg)
 </p>
 
 #### 🗄️ Bases de datos
 
 <p align="center">
-  <img src="https://skillicons.dev/icons/mysql.svg" height="40" />
-  <img src="https://skillicons.dev/icons/firebase.svg" height="40" />
-  <img src="https://skillicons.dev/icons/mongodb.svg" height="40" />
+  ![MySQL](https://skillicons.dev/icons/mysql.svg)
+  ![Firebase](https://skillicons.dev/icons/firebase.svg)
+  ![MongoDB](https://skillicons.dev/icons/mongodb.svg)
 </p>
 
 #### 📦 Frameworks y bibliotecas
 
 <p align="center">
-  <img src="https://skillicons.dev/icons/vue.svg" height="40" />
-  <img src="https://skillicons.dev/icons/tailwindcss.svg" height="40" />
-  <img src="https://skillicons.dev/icons/nodejs.svg" height="40" />
-  <img src="https://skillicons.dev/icons/express.svg" height="40" />
+  ![Vue.js](https://skillicons.dev/icons/vue.svg)
+  ![TailwindCSS](https://skillicons.dev/icons/tailwindcss.svg)
+  ![Node.js](https://skillicons.dev/icons/nodejs.svg)
+  ![Express.js](https://skillicons.dev/icons/express.svg)
 </p>
 
 #### 🧰 Herramientas y software
 
 <p align="center">
-  <img src="https://skillicons.dev/icons/strapi.svg" height="40" />
-  <img src="https://skillicons.dev/icons/androidstudio.svg" height="40" />
-  <img src="https://skillicons.dev/icons/vscode.svg" height="40" />
-  <img src="https://skillicons.dev/icons/git.svg" height="40" />
-  <img src="https://skillicons.dev/icons/postman.svg" height="40" />
-  <img src="https://skillicons.dev/icons/figma.svg" height="40" />
-  <img src="https://skillicons.dev/icons/unity.svg" height="40" />
-  <img src="https://skillicons.dev/icons/virtualbox.svg" height="40" />
-  <img src="https://skillicons.dev/icons/cisco.svg" height="40" />
+  ![Strapi](https://skillicons.dev/icons/strapi.svg)
+  ![Android Studio](https://skillicons.dev/icons/androidstudio.svg)
+  ![VSCode](https://skillicons.dev/icons/vscode.svg)
+  ![Git](https://skillicons.dev/icons/git.svg)
+  ![Postman](https://skillicons.dev/icons/postman.svg)
+  ![Figma](https://skillicons.dev/icons/figma.svg)
+  ![Unity](https://skillicons.dev/icons/unity.svg)
+  ![VirtualBox](https://skillicons.dev/icons/virtualbox.svg)
+  ![Cisco](https://skillicons.dev/icons/cisco.svg)
 </p>
 
 ---
