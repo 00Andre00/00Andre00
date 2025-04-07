@@ -2,7 +2,15 @@
 <div align="center">
   <img height="150" src="https://media.giphy.com/media/1dJWnCZBCE7gcFwLvk/giphy.gif" />
 </div>
+<h3 align="center">
+  Contacto
+</h3>
 
+<div align="center">
+  <a href="mailto:renzopanduro00@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-renzopanduro00@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+</div>
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&color=36BCF7FF&size=25&center=true&vCenter=true&width=600&lines=Hola+👋,+soy+Andre;Fullstack+Developer+💻" alt="Titulo animado" />
 </div>
@@ -73,16 +81,6 @@
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
-</div>
-
-<h3 align="center">
-  Contacto
-</h3>
-
-<div align="center">
-  <a href="mailto:renzopanduro00@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-renzopanduro00@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
 </div>
 
 <div align="center">
