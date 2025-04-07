@@ -22,7 +22,7 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/purple.png" alt="linea neon" width="100%">
 </div>
 
 <h2 align="center">
@@ -80,8 +80,9 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/purple.png" alt="linea neon" width="100%">
 </div>
+
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=00Andre00&show_icons=true&theme=radical&count_private=true&include_all_commits=true&border_color=00FFFF" height="150" alt="GitHub Stats" />
