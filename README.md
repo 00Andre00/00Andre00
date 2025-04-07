@@ -80,6 +80,7 @@
 
 ---
 
+### 🐍 Snake de contribuciones
 
 <div align="center">
   <img src="https://github.com/00Andre00/00Andre00/blob/output/snake.svg" alt="Snake animation" />
