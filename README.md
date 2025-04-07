@@ -13,28 +13,47 @@
   </p>
 </div>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
+</div>
+
 <h3 align="center">🧠 Tech Stack</h3>
 
 <h4 align="center">💻 Lenguajes de programación</h4>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,kotlin,javascript,html,css" />
-</p>
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+</div>
 
 <h4 align="center">🗄️ Bases de datos</h4>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,firebase,mongodb" />
-  <img src="https://skillicons.dev/icons?i=strapi" />
-</p>
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+</div>
 
 <h4 align="center">📦 Frameworks y bibliotecas</h4>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=vue,tailwind,nodejs,express" />
-</p>
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+</div>
 
 <h4 align="center">🧰 Herramientas y software</h4>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=androidstudio,vscode,git,postman,figma,unity,cisco,virtualbox" />
-</p>
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://static-00.iconduck.com/assets.00/cisco-icon-2048x1896-o7lm8l4x.png" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/virtualbox/virtualbox-original.svg" width="60" height="60" style="padding: 10px; background-color: #0d1117; border-radius: 10px; margin: 5px;"/>
+</div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
