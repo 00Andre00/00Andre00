@@ -23,7 +23,6 @@
 </h2>
 
 <h3 align="center">
-  <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="30"> 
   Lenguajes de programación
 </h3>
 
@@ -36,7 +35,6 @@
 </div>
 
 <h3 align="center">
-  <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="30"> 
   Bases de datos
 </h3>
 
@@ -48,7 +46,6 @@
 </div>
 
 <h3 align="center">
-  <img src="https://media.giphy.com/media/UoLt6Tm8wlSnWGfSFs/giphy.gif" width="30"> 
   Frameworks y bibliotecas
 </h3>
 
@@ -60,7 +57,6 @@
 </div>
 
 <h3 align="center">
-  <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="30"> 
   Herramientas y software
 </h3>
 
@@ -80,7 +76,6 @@
 </div>
 
 <h3 align="center">
-  <img src="https://media.giphy.com/media/KcnlGHBpnKnjZIuCMv/giphy.gif" width="30">
   Contacto
 </h3>
 
@@ -90,12 +85,7 @@
   </a>
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
-</div>
-
 <h3 align="center">
-  <img src="https://media.giphy.com/media/JrXas5Aw5dHIvXQFyu/giphy.gif" width="30">
   Stats
 </h3>
 
@@ -104,12 +94,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=00Andre00&layout=compact&langs_count=5&theme=radical&count_private=true&border_color=00FFFF" height="150" alt="Top Languages" />
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
-</div>
-
 <h3 align="center">
-  <img src="https://media.giphy.com/media/3o7aDgfAJSWLZvQNDq/giphy.gif" width="30">
   Snake de contribuciones
 </h3>
 
