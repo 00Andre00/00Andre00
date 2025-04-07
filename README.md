@@ -85,18 +85,10 @@
   </a>
 </div>
 
-<h3 align="center">
-  Stats
-</h3>
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=00Andre00&show_icons=true&theme=radical&count_private=true&include_all_commits=true&border_color=00FFFF" height="150" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=00Andre00&layout=compact&langs_count=5&theme=radical&count_private=true&border_color=00FFFF" height="150" alt="Top Languages" />
 </div>
-
-<h3 align="center">
-  Snake de contribuciones
-</h3>
 
 <div align="center">
   <img src="https://github.com/00Andre00/00Andre00/blob/output/snake.svg" alt="Snake animation" />
