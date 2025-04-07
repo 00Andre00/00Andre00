@@ -13,10 +13,6 @@
   </p>
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
-</div>
-
 <h3 align="center">🧠 Tech Stack</h3>
 
 <h4 align="center">💻 Lenguajes de programación</h4>
@@ -27,6 +23,7 @@
 <h4 align="center">🗄️ Bases de datos</h4>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mysql,firebase,mongodb" />
+  <img src="https://skillicons.dev/icons?i=strapi" />
 </p>
 
 <h4 align="center">📦 Frameworks y bibliotecas</h4>
@@ -36,7 +33,7 @@
 
 <h4 align="center">🧰 Herramientas y software</h4>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,vscode,androidstudio,figma,unity,postman,strapi,virtualbox,cisco" />
+  <img src="https://skillicons.dev/icons?i=androidstudio,vscode,git,postman,figma,unity,cisco,virtualbox" />
 </p>
 
 <div align="center">
@@ -44,24 +41,16 @@
 </div>
 
 <h3 align="center">📫 Contacto</h3>
-<p align="center">
-  <a href="mailto:renzopanduro00@gmail.com">
-    <img src="https://img.shields.io/badge/-renzopanduro00@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
+  <a href="mailto:renzopanduro00@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-renzopanduro00%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010" />
+  </a>
 </div>
 
 <h3 align="center">📊 Stats</h3>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=00Andre00&show_icons=true&theme=radical&count_private=true&include_all_commits=true&border_color=00FFFF" height="150" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=00Andre00&layout=compact&langs_count=5&theme=radical&count_private=true&border_color=00FFFF" height="150" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="linea neon" width="100%">
 </div>
 
 <h3 align="center">🐍 Snake de contribuciones</h3>
