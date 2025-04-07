@@ -58,26 +58,6 @@
 
 ---
 
-### 📋 Metodologías de trabajo
-
-- Kanban  
-- Reuniones de seguimiento  
-- Planificación semanal (Sprints)
-
----
-
-### 💪 Fortalezas personales
-
-- Adaptabilidad  
-- Gestión de Proyectos  
-- Desarrollo Multiplataforma  
-- Resolución de Problemas  
-- Autoaprendizaje  
-- Proactividad  
-- Creatividad
-
----
-
 ### 📫 Contacto
 
 <p align="center">
