@@ -77,3 +77,11 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=00Andre00&layout=compact&langs_count=5&theme=dracula&count_private=true" height="150" alt="Top Languages" />
 </div>
+
+---
+
+### 🐍 Snake de contribuciones
+
+<div align="center">
+  <img src="https://github.com/00Andre00/00Andre00/blob/output/snake.svg" alt="Snake animation" />
+</div>
