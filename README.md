@@ -22,7 +22,7 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/purple.png" alt="linea neon" width="100%">
+  <img src="https://via.placeholder.com/1000x5/9b59b6/9b59b6?text=" alt="Barra Neon Morado" width="100%">
 </div>
 
 <h2 align="center">
