@@ -2,7 +2,7 @@ name: Update README with GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Corregido el formato cron (faltaba un *)
+    - cron: '0 0 * * *'  # Ejecutar todos los días a medianoche
   workflow_dispatch:
 
 permissions:
@@ -12,41 +12,24 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Asegura que obtiene todo el historial
-          
-      - name: Configure Git
+          fetch-depth: 0
+
+      - name: Update GitHub Stats section
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-      - name: Pull Latest Changes
+          sed -i '/<!-- STATS START -->/,/<!-- STATS END -->/c\
+<!-- STATS START -->\
+<div align="center">\
+  <img src="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical&count_private=true&include_all_commits=true" height="150" alt="GitHub Stats" />\
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=${{ github.repository_owner }}&layout=compact&langs_count=5&theme=radical&count_private=true" height="150" alt="Top Languages" />\
+</div>\
+<!-- STATS END -->' README.md
+
+      - name: Commit & Push
         run: |
-          git pull origin main
-          
-      - name: Generate GitHub Stats
-        run: |
-          echo '###' > README.md
-          echo '' >> README.md
-          echo '<div align="center">' >> README.md
-          echo '  <img height="150" src="https://media.giphy.com/media/1dJWnCZBCE7gcFwLvk/giphy.gif" />' >> README.md
-          echo '</div>' >> README.md
-          echo '' >> README.md
-          echo '###' >> README.md
-          echo '' >> README.md
-          echo '<div align="center">' >> README.md
-          echo '  <img src="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" height="150" alt="GitHub Stats" />' >> README.md
-          echo '</div>' >> README.md
-          echo '' >> README.md
-          echo '<div align="center">' >> README.md
-          echo '  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=${{ github.repository_owner }}&layout=compact&langs_count=5&theme=dracula&count_private=true" height="150" alt="Top Languages" />' >> README.md
-          echo '</div>' >> README.md
-          echo '' >> README.md
-          
-      - name: Commit and Push Changes
-        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "Update README with GitHub Stats"
+          git diff --staged --quiet || git commit -m "chore: update GitHub stats"
           git push origin main
