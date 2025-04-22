@@ -39,3 +39,4 @@
 <!-- SNAKE START -->
 ![Snake animation](https://raw.githubusercontent.com/00Andre00/00Andre00/output/github-contribution-grid-snake-dark.svg)
 <!-- SNAKE END -->
+
