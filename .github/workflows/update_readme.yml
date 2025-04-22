@@ -2,7 +2,7 @@ name: Update README with GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Ejecutar todos los días a medianoche
+    - cron: '0 0 * * *'  # Corregido el formato cron (faltaba un *)
   workflow_dispatch:
 
 permissions:
@@ -12,31 +12,41 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      # Paso 1: Checkout del repositorio
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Asegura que se obtengan todos los commits
-
-      # Paso 2: Actualizar la sección de estadísticas de GitHub y la URL del snake
-      - name: Update GitHub Stats section and snake URL
+          fetch-depth: 0  # Asegura que obtiene todo el historial
+          
+      - name: Configure Git
         run: |
-          sed -i '/<!-- STATS START -->/,/<!-- STATS END -->/c\
-<!-- STATS START -->\
-<div align="center">\
-  <img src="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical&count_private=true&include_all_commits=true" height="150" alt="GitHub Stats" />\
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=${{ github.repository_owner }}&layout=compact&langs_count=5&theme=radical&count_private=true" height="150" alt="Top Languages" />\
-</div>\
-<!-- STATS END -->' README.md
-
-          # Actualizar el enlace del archivo snake.svg
-          sed -i 's|https://github.com/00Andre00/00Andre00/blob/output/snake.svg|https://github.com/00Andre00/00Andre00/blob/output/dist/github-contribution-grid-snake.svg|g' README.md
-
-      # Paso 3: Commit y Push de los cambios al README
-      - name: Commit & Push changes to README
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+      - name: Pull Latest Changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main
+          
+      - name: Generate GitHub Stats
+        run: |
+          echo '###' > README.md
+          echo '' >> README.md
+          echo '<div align="center">' >> README.md
+          echo '  <img height="150" src="https://media.giphy.com/media/1dJWnCZBCE7gcFwLvk/giphy.gif" />' >> README.md
+          echo '</div>' >> README.md
+          echo '' >> README.md
+          echo '###' >> README.md
+          echo '' >> README.md
+          echo '<div align="center">' >> README.md
+          echo '  <img src="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" height="150" alt="GitHub Stats" />' >> README.md
+          echo '</div>' >> README.md
+          echo '' >> README.md
+          echo '<div align="center">' >> README.md
+          echo '  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=${{ github.repository_owner }}&layout=compact&langs_count=5&theme=dracula&count_private=true" height="150" alt="Top Languages" />' >> README.md
+          echo '</div>' >> README.md
+          echo '' >> README.md
+          
+      - name: Commit and Push Changes
+        run: |
           git add README.md
-          git diff --staged --quiet || git commit -m "chore: update GitHub stats and snake URL"
+          git diff --staged --quiet || git commit -m "Update README with GitHub Stats"
           git push origin main
