@@ -25,6 +25,7 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Barra de colores" width="100%">
 </div>
 
+
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> 
   Tech Stack
@@ -83,18 +84,12 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Barra de colores" width="100%">
 </div>
 
-<!-- STATS START -->
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=00Andre00&show_icons=true&theme=radical&count_private=true&include_all_commits=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=00Andre00&layout=compact&langs_count=5&theme=radical&count_private=true" height="150" alt="Top Languages" />
-</div>
-<!-- STATS END -->
-
+<br>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=00Andre00&show_icons=true&theme=radical&count_private=true&include_all_commits=true&border_color=00FFFF" height="150" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=00Andre00&layout=compact&langs_count=5&theme=radical&count_private=true&border_color=00FFFF" height="150" alt="Top Languages" />
 </div>
 
-<!-- SNAKE START -->
-![Snake animation](https://raw.githubusercontent.com/00Andre00/00Andre00/output/github-contribution-grid-snake-dark.svg)
-<!-- SNAKE END -->
+<div align="center">
+  <img src="https://github.com/00Andre00/00Andre00/blob/output/snake.svg" alt="Snake animation" />
+</div>
