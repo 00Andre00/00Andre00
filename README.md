@@ -12,7 +12,7 @@
   </a>
 </div>
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&color=ba03fc&size=25&center=true&vCenter=true&width=600&lines=Hola+👋,+soy+Andre;Fullstack+Developer+💻" alt="Titulo animado" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&color=ba03fc&size=25&center=true&vCenter=true&width=600&lines=Hola+👋,+soy+Renzo;Fullstack+Developer+💻" alt="Titulo animado" />
 </div>
 
 <div align="center">
