@@ -12,9 +12,10 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Asegura que se obtengan todos los commits
 
       - name: Update GitHub Stats section
         run: |
@@ -26,7 +27,7 @@ jobs:
 </div>\
 <!-- STATS END -->' README.md
 
-      - name: Commit & Push
+      - name: Commit & Push changes to README
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
