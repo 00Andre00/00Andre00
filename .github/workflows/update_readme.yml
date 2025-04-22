@@ -12,12 +12,14 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
+      # Paso 1: Checkout del repositorio
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0  # Asegura que se obtengan todos los commits
 
-      - name: Update GitHub Stats section
+      # Paso 2: Actualizar la sección de estadísticas de GitHub y la URL del snake
+      - name: Update GitHub Stats section and snake URL
         run: |
           sed -i '/<!-- STATS START -->/,/<!-- STATS END -->/c\
 <!-- STATS START -->\
@@ -27,10 +29,14 @@ jobs:
 </div>\
 <!-- STATS END -->' README.md
 
+          # Actualizar el enlace del archivo snake.svg
+          sed -i 's|https://github.com/00Andre00/00Andre00/blob/output/snake.svg|https://github.com/00Andre00/00Andre00/blob/output/dist/github-contribution-grid-snake.svg|g' README.md
+
+      # Paso 3: Commit y Push de los cambios al README
       - name: Commit & Push changes to README
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "chore: update GitHub stats"
+          git diff --staged --quiet || git commit -m "chore: update GitHub stats and snake URL"
           git push origin main
