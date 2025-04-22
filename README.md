@@ -91,5 +91,5 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/00Andre00/00Andre00/blob/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/00Andre00/00Andre00/output/snake.svg" alt="Snake animation" />
 </div>
