@@ -86,8 +86,12 @@
 
 <br>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=00Andre00&show_icons=true&theme=radical&count_private=true&include_all_commits=true&border_color=00FFFF" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=00Andre00&layout=compact&langs_count=5&theme=radical&count_private=true&border_color=00FFFF" height="150" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=00Andre00&theme=radical" alt="Profile Details" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=00Andre00&theme=radical" height="150" alt="Repos per language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=00Andre00&theme=radical" height="150" alt="Stats"/>
 </div>
 
 <div align="center">
