@@ -2,6 +2,7 @@
 <div align="center">
   <img height="150" src="https://media.giphy.com/media/1dJWnCZBCE7gcFwLvk/giphy.gif" />
 </div>
+
 <h3 align="center">
   Contacto
 </h3>
@@ -11,6 +12,7 @@
     <img src="https://img.shields.io/badge/Gmail-renzopanduro00@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </div>
+
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&color=ba03fc&size=25&center=true&vCenter=true&width=600&lines=Hola+👋,+soy+Renzo;Fullstack+Developer+💻" alt="Titulo animado" />
 </div>
@@ -24,7 +26,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Barra de colores" width="100%">
 </div>
-
 
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> 
@@ -84,12 +85,31 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Barra de colores" width="100%">
 </div>
 
-<br>
+## 📊 Estadísticas de GitHub
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=00Andre00&show_icons=true&theme=radical&count_private=true&include_all_commits=true&border_color=00FFFF" height="150" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=00Andre00&layout=compact&langs_count=5&theme=radical&count_private=true&border_color=00FFFF" height="150" alt="Top Languages" />
 </div>
 
 <div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=00Andre00&theme=radical&border=00FFFF" height="150" alt="GitHub Streak" />
+</div>
+
+## 🐍 Contribuciones
+
+<div align="center">
   <img src="https://raw.githubusercontent.com/00Andre00/00Andre00/output/snake.svg" alt="Snake animation" />
+</div>
+
+## 🏆 Logros de GitHub
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=00Andre00&theme=radical&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=00Andre00&style=for-the-badge&color=blueviolet" alt="Profile views" />
 </div>
